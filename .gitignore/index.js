@@ -7,4 +7,4 @@ bot.on("ready", function() {
     console.log("Bonjour maitre");
 });
 
-bot.login("Njg1MjQzODUwNTQ1Mjk5NDc5.XmIxGA.fEb7r24PtQ8kIEgPQzKYvjNdxf0");
+bot.login(process.env.TOKEN);
